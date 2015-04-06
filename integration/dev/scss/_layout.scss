@@ -1,0 +1,321 @@
+/* POSITIONNING
+==============================================================================*/
+
+
+/* GENERAL
+==============================================================================*/
+
+article {
+ @include mq($large) {
+  width: 66%;
+  display: block;
+  float: left;
+  margin: 0;
+ }
+}
+
+aside {
+   @include mq($large) {
+  width: 30%;
+  display: block;
+  float: right;
+  margin: 0;
+  margin-right: 3rem;
+ }
+}
+
+/*==============================================================================
+HEADER
+==============================================================================*/
+
+header {
+  padding: 2rem 0;
+  border-bottom: $border-fat;
+  margin-bottom: $block-bottom-space;
+}
+
+
+h1 {
+  display: block;
+  width: 60%;
+  height: 0;
+  margin: auto;
+  padding: 10%;
+
+  @include mq($med) {
+    width: 25%;
+  }
+}
+
+/*==============================================================================
+MAIN CONTENT
+==============================================================================*/
+h2 {
+}
+
+h3 {
+  margin-bottom: 2rem;
+}
+
+
+/* GALLERY
+==============================================================================*/
+.gallery {
+  display: block;
+  margin: 0 auto;
+  width: $block-width;
+  max-width: 500px;
+  margin-bottom: 4rem;
+}
+
+.gallery__item {
+  display: block;
+  height: auto;
+  margin: 0 auto 2rem;
+  width: 55%;
+  border: $border-med;
+
+  &:nth-child(n+2) {
+    display: none;
+  }
+
+  @include mq($med) {
+    display: block;
+    float: left;
+    width: calc(50% - 1rem);
+    margin-bottom: 1rem;
+
+    &:nth-child(n+2) {
+      display: block;
+    }
+    &:nth-child(n+5) {
+      display: none;
+    }
+
+    &:nth-child(2n) {
+      margin-left: 1rem;
+    }
+  }
+
+  @include mq($large) {
+    width: calc(33% - .66rem);
+
+    &:nth-child(n+5) {
+      display: block;
+    }
+    &:nth-child(2n) {
+      margin-left: 0;
+    }
+    &:nth-child(3n+2) {
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
+  }
+}
+
+
+/* INFOS
+==============================================================================*/
+
+.infos {
+  width: $block-width;
+  max-width: 500px;
+  margin: 0 auto 2rem;
+  padding: 0 1rem;
+  border:$border-small;
+  border-top: none;
+  border-bottom: none;
+
+}
+
+.infos__date {
+  margin-bottom: 1rem;
+
+}
+
+.infos__place {
+  strong {
+    display: block;
+  }
+
+}
+
+.infos__more {
+  width: $block-width;
+  max-width: 500px;
+  margin: 0 auto 2rem;
+}
+
+/* BOOKING
+==============================================================================*/
+
+.booking {
+  width: $block-width;
+  max-width: 500px;
+  margin: 0 auto $block-bottom-space;
+  border-bottom: $border-fat;
+
+  @include mq($large) {
+    width: 100%;
+  }
+}
+
+.booking__title {
+  padding: 1rem;
+  margin-bottom: 0;
+  border-bottom: $border-small;
+  position: relative;
+}
+
+.booking__content {
+  padding: 2rem;
+  border-top: $border-small;
+
+  em {
+    display: block;
+    margin-bottom: 2rem;
+  }
+
+  label {
+    margin-bottom: 1rem;
+    display: block;
+
+    span {
+
+    }
+
+    input {
+      display: block;
+      width: 100%;
+      padding: 1rem;
+    }
+  }
+}
+
+.booking__infos-perso {
+
+}
+
+.booking__number-tickets {
+
+
+  label {
+    width: 45%;
+    margin: 0 0 1rem;
+    display: block;
+
+    &:first-child {
+      float: left;
+    }
+    &:last-child {
+      float: right;
+    }
+  }
+}
+
+.booking__pay {
+
+  padding-top: 2rem;
+  margin-bottom: $block-bottom-space;
+
+  label {
+    display: inline-block;
+    width: 45%;
+    margin: 0;
+    padding: 0;
+    line-height: 50%;
+
+    span {
+      display: inline-block;
+      width: 50%;
+      height: 0;
+      padding: 25% 0;
+    }
+
+    input {
+      display: inline-block;
+      width: auto;
+      margin-right: 1rem;
+    }
+
+    &:first-child {
+    text-align: right;
+
+      span {
+
+      }
+      input {
+
+
+      }
+    }
+    &:last-child {
+      float: right;
+      span {
+
+
+      }
+      input {
+
+      }
+    }
+  }
+}
+
+.booking__submit {
+  width: 100%;
+  padding: 1rem 0;
+  border: none;
+}
+
+
+/* MORE INFOS
+==============================================================================*/
+
+.more-infos {
+  padding: 4rem 3rem;
+  border-bottom: $border-fat;
+}
+
+.more-infos__title {
+  margin-bottom: 2rem;
+}
+.more-infos__expo--title {
+  margin-bottom: 1rem;
+}
+
+.more-infos__expo--subtitle {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.more-infos__temp {
+  margin-bottom: 2rem;
+}
+
+.more-infos__date {
+  margin-bottom: 2rem;
+}
+.more-infos__tickets {
+  margin-bottom: 2rem;
+}
+.more-infos__disclaimer {
+  margin-bottom: 2rem;
+}
+
+/*==============================================================================
+FOOTER
+==============================================================================*/
+
+footer {
+  clear: both;
+  text-align: center;
+  padding: 2rem;
+
+  .logo-mum {
+    width: 20%;
+    max-width: 75px;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+}

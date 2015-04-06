@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="77px" height="83px" viewBox="0 0 77 83" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <title>icon-ticket</title>
+    <description>Created with Sketch (http://www.bohemiancoding.com/sketch)</description>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="icon-ticket" sketch:type="MSLayerGroup" transform="translate(2.000000, 2.000000)" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M33.9827586,79 L73,36.7758621 C69.2807759,32.7509483 69.2241379,25.8793103 73,21.7931034 L52.862069,0 C50.505931,4.08075862 42.7364655,4.02491379 39.0172414,0 L0,42.2241379 C3.71922414,46.2490517 3.71922414,53.1819828 0,57.2068966 L20.137931,79 C23.8571552,74.9750862 30.2635345,74.9750862 33.9827586,79 L33.9827586,79 Z" id="Stroke-8651" sketch:type="MSShapeGroup"></path>
+            <path d="M33.7772772,65.423076 C31.8264079,67.5256413 28.635558,67.5256413 26.6859424,65.423076 L12.463152,50.0844898 C10.5122827,47.9819245 10.5122827,44.5393962 12.463152,42.4368308 L39.2236631,13.576924 C41.1732787,11.4743587 44.3641286,11.4743587 46.3149979,13.576924 L60.5377883,28.9155102 C62.4874039,31.0180755 62.4874039,34.4606038 60.5377883,36.5631692 L33.7772772,65.423076 L33.7772772,65.423076 Z" id="Stroke-8652" sketch:type="MSShapeGroup"></path>
+            <path d="M43,25 L24,46" id="Stroke-8653" sketch:type="MSShapeGroup"></path>
+            <path d="M45,37 L35,48" id="Stroke-8654" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

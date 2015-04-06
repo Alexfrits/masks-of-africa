@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8"/>
+  <title>MUM Identité secrète</title>
+  <link rel="stylesheet" href="css/reset-normalize.css"/>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/main.css"/>
+</head>
+<body>
+<header>
+  <h1>Masks of Africa</h1>
+</header>
+<main>
+<!-- main article -->
+  <article>
+    <h2>Masks of Africa</h2>
+    <h3>Identité cachée et entités révélées</h3>
+      <figure class="gallery">
+        <img class="gallery__item" src="img/masks/_aaa4450-20120426_139092521387635400.jpg" height="1100" width="736" alt="Masque africain 1">
+        <img class="gallery__item" src="img/masks/_aaa4443-20120426-2_139090928949109300.jpg" height="1100" width="736" alt="Masque africain 2">
+        <img class="gallery__item" src="img/masks/_aaa4451-20120426_139092671446108700.jpg" height="1100" width="736" alt="Masque africain 3">
+        <img class="gallery__item" src="img/masks/_aaa4471-20120426_139092636318585600.jpg" height="1100" width="736" alt="Masque africain 4">
+        <img class="gallery__item" src="img/masks/_aaa4446-20120426_139092234278079800.jpg" height="1100" width="736" alt="Masque africain 5">
+        <img class="gallery__item" src="img/masks/_aaa4483-20120426_139092330720616500.jpg" height="1100" width="736" alt="Masque africain 6">
+        <figcaption class="gallery__caption">Plus qu’un déguisement, le masque nous ouvre les portes d'un autre monde !</figcaption>
+      </figure>
+    <div class="infos">
+      <p class="infos__date">du <time datetime="2014-04-17">17.04</time> au <time datetime="2014-07-25">25.07</time></p>
+      <p class="infos__place">
+        Musée International du Masque
+        <strong>BINCHE</strong>
+      </p>
+    </div>
+    <p class="infos__more">Plus de 180 masques africains issus des collections du musée et prêtés par de prestigieuses institutions étrangères.</p>
+  </article>
+  <!-- end main article -->
+  <aside>
+  <!-- booking -->
+    <form action="index.php" id="ticket-form" class="booking">
+    <h3 class="booking__title">Tickets</h3>
+      <div class="booking__content">
+        <em>Réservez vos tickets directement en ligne !</em>
+        <fieldset class="booking__infos-perso">
+          <label for="name">
+            <span>Personne de contact</span>
+            <input type="text" id="name" name="name" placeholder="Prénom Nom" required>
+          </label>
+          <label for="mail">
+            <span>Adresse email</span>
+            <input type="email" id="mail" name="mail" placeholder="adresse@domaine.be" required>
+          </label>
+        </fieldset>
+
+        <fieldset class="booking__number-tickets">
+          <label for="ticket-adults" class="booking__number-tickets__adults">
+            <span>Tickets Adultes (6€)</span>
+            <input type="number" id="ticket-adults" name="ticket-adults" placeholder="0">
+          </label>
+          <label for="ticket-child" class="booking__number-tickets__child">
+            <span>Tickets Enfants (3€)</span>
+            <input type="number" id="ticket-child" name="ticket-child" placeholder="0">
+          </label>
+        </fieldset>
+        <fieldset class="booking__pay">
+          <label for="visa" class="booking__pay__visa">
+            <input type="radio" id="visa" name="card" value="Visa">
+            <span>Visa :</span>
+          </label>
+          <label for="mastercard" class="booking__pay__master">
+            <input type="radio" id="mastercard" name="card" value="Mastercard">
+            <span>Mastercard :</span>
+          </label>
+        </fieldset>
+        <input type="submit" value="Réserver" class="booking__submit">
+      </div>
+    </form>
+    <!-- end booking -->
+
+    <!-- more infos -->
+    <div class="more-infos">
+      <h3 class="more-infos__title">Infos pratiques</h3>
+        <h4 class="more-infos__expo--title">MASKS OF AFRICA</h4>
+          <strong class="more-infos__expo--subtitle">Identité cachée et entités révélées</strong>
+          <em class="more-infos__temp">Exposition temporaire</em>
+          <p class="more-infos__date">Du <time datetime="2014-04-17">17.04</time> au <time datetime="2014-07-25">25.07.2014</time></p>
+          <ul class="more-infos__tickets">
+            <li class="more-infos__tickets--adults">Adultes : 6 €</li>
+            <li class="more-infos__tickets--child">Enfants : 3 €</li>
+          </ul>
+          <p class="more-infos__disclaimer">Les tickets ne sont ni remboursés ni échangés. Ils doivent être présentés au personnel du musée sur simple requête.</p>
+          <p class="more-infos__place">Rue Saint-Moustier, 10 – 7130 Binche</p>
+          <a class="more-infos__url" href="http://www.mim.org">www.mim.org</a>
+    </div>
+    <!-- end more infos -->
+  </aside>
+</main>
+<!-- footer -->
+<footer>
+<figure>
+  <img class="logo-mum" src="img/logos/logo-mum.png" height="144" width="144" alt="logo MUM">
+  <figcaption>Binche Musée International du Carnaval et du Masque</figcaption>
+</figure>
+</footer>
+<!-- end footer -->
+</body>
+</html>

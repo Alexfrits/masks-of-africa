@@ -1,0 +1,228 @@
+/* TYPO AND TEXTS
+==============================================================================*/
+
+
+/*==============================================================================
+MAIN CONTENT
+==============================================================================*/
+body {
+
+}
+
+h2,
+h3 {
+  text-align: center;
+  font-family: $bebas-book;
+  text-transform: uppercase;
+}
+h2 {
+  font-size: 5.6rem;
+  letter-spacing: -.1rem;
+}
+
+h3 {
+   font-size: 2.4rem;
+}
+
+/* GALLERY
+==============================================================================*/
+.gallery {
+
+}
+
+.gallery__item {
+
+}
+.gallery__caption {
+  font-family: $open-sans;
+  font-size: 1.6rem;
+}
+
+
+
+
+/* INFOS
+==============================================================================*/
+
+.infos {
+  font-family: $bebas-book;
+
+
+}
+
+.infos__date {
+  text-align: center;
+  font-size: 4rem;
+
+  time {
+    font-size: 6rem;
+  }
+
+
+}
+
+.infos__place {
+  text-align: center;
+  font-size: 2.4rem;
+
+  strong {
+    font-family: $bebas-bold;
+  }
+
+}
+
+.infos__more {
+  @extend .gallery__caption;
+
+}
+
+/* BOOKING
+==============================================================================*/
+
+.booking {
+
+}
+
+.booking__title {
+  font-family: $bebas-book;
+  font-size: 4rem;
+
+}
+
+.booking__content {
+  font-family: $open-sans;
+
+  em {
+  @extend .gallery__caption;
+  font-style: normal;
+  }
+  label {
+
+    span {
+      font-size: 1.4rem;
+    }
+    input {
+      font-size: 1.8rem;
+
+    }
+  }
+}
+
+.booking__infos-perso {
+
+  label {
+
+    span {
+
+    }
+    input {
+
+    }
+  }
+}
+.booking__number-tickets {
+
+
+  label {
+
+
+    &:first-child {
+
+    }
+    &:last-child {
+
+    }
+  }
+}
+
+.booking__pay {
+  label {
+
+    span {
+      font: 0/0 a;
+    }
+
+    input {
+
+    }
+
+    &:first-child {
+
+      span {
+
+      }
+
+    }
+    &:last-child {
+
+      span {
+
+      }
+    }
+  }
+}
+
+.booking__submit {
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+
+
+
+
+/* MORE INFOS
+==============================================================================*/
+
+.more-infos {
+  text-align: center;
+  font-size: 1.4rem;
+  font-family: $open-sans;
+  letter-spacing: .1rem;
+}
+
+.more-infos__title {
+  font-size: 5rem;
+
+}
+.more-infos__expo--title {
+  font-size: 2.4rem;
+  line-height: 2.8rem;
+
+}
+.more-infos__expo--subtitle {
+  font-size: 1.4rem;
+}
+
+.more-infos__temp {
+  display: block;
+  font-style: italic;
+}
+
+.more-infos__date {
+  font-size: 2.4rem;
+
+}
+.more-infos__tickets {
+  font-size: 2.4rem;
+
+
+}
+.more-infos__disclaimer {
+  font-style: italic;
+
+}
+
+.more-infos__url {
+
+
+}
+
+/*==============================================================================
+FOOTER
+==============================================================================*/
+
+footer {
+  font-family: $bebas-book;
+  font-size: 1.4rem;
+
+}

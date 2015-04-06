@@ -1,0 +1,221 @@
+/* COLORS AND DECORATIVE IMAGES
+==============================================================================*/
+
+
+/*==============================================================================
+HEADER
+==============================================================================*/
+
+header {
+  background: $second-color;
+  border-bottom-color: $third-color;
+}
+
+
+h1 {
+  background:transparent url("../img/logos/logo-masks.svg") 50% no-repeat;
+  background-size: contain;
+  font: 0/0 a;
+}
+
+/*==============================================================================
+MAIN CONTENT
+==============================================================================*/
+body {
+    background:  url("../img/bg-pattern.png"),
+                 $main-color;
+}
+
+h2,
+h3 {
+  color: $third-color;
+}
+
+/* GALLERY
+==============================================================================*/
+.gallery {
+
+}
+
+.gallery__item {
+  border-color: white;
+
+}
+.gallery__caption {
+ color: $second-color;
+}
+
+
+
+
+/* INFOS
+==============================================================================*/
+
+.infos {
+  border-color: white;
+
+}
+
+.infos__date {
+  color: $red;
+
+}
+
+.infos__place {
+  color: $third-color;
+
+  strong {
+
+  }
+
+}
+
+.infos__more {
+  color: $second-color;
+}
+
+/* BOOKING
+==============================================================================*/
+
+.booking {
+  background: $main-color;
+  border-bottom-color: white;
+}
+
+.booking__title {
+  color: white;
+  background: url('../img/icon-ticket.svg') no-repeat calc(50% - 7rem) 1rem,
+              $gradient-orange no-repeat;
+  background-size: 4rem, auto;
+  border-bottom-color: $red;
+}
+
+.booking__content {
+  border-top-color: white;
+
+
+  em {
+    display: block;
+  }
+
+  label {
+
+    span {
+      color: $dark-orange;
+    }
+
+    input {
+    }
+  }
+
+
+}
+
+.booking__infos-perso {
+
+  label {
+
+    span {
+
+      &::after {
+        content: " *";
+      }
+
+    }
+    input {
+
+    }
+  }
+}
+.booking__number-tickets {
+
+
+  label {
+
+
+    &:first-child {
+
+    }
+    &:last-child {
+
+    }
+  }
+}
+
+.booking__pay {
+
+  label {
+
+    span {
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: left top;
+    }
+
+    input {
+
+    }
+
+    &:first-child {
+
+      span {
+        background-image: url("../img/icon-visa-card.png");
+      }
+
+    }
+    &:last-child {
+
+      span {
+        background-image: url("../img/icon-master-card.png");
+      }
+    }
+  }
+}
+
+.booking__submit {
+  color: white;
+  background: $gradient-orange;
+}
+
+
+
+
+/* MORE INFOS
+==============================================================================*/
+
+.more-infos {
+  background-color: $second-color;
+  color: $main-color;
+  border-bottom-color: $third-color;
+
+}
+
+.more-infos__title {
+
+}
+.more-infos__expo--subtitle {
+
+}
+.more-infos__date {
+  color: $red;
+}
+.more-infos__tickets {
+  color: $yellow;
+
+}
+.more-infos__disclaimer {
+
+}
+
+.more-infos__url {
+  color: $red;
+  text-decoration: underline;
+}
+
+/*==============================================================================
+FOOTER
+==============================================================================*/
+
+footer {
+  background-color: white;
+}

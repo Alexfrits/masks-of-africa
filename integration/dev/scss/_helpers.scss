@@ -1,0 +1,73 @@
+/*==============================================================================
+HELPERS
+==============================================================================*/
+
+/* VARIABLES
+==============================================================================*/
+
+/* BREAKPOINTS */
+
+$small : 25em;
+$med : 50em;
+$large : 70em;
+
+/* COLORS */
+
+$main-color: rgb(253, 167, 36);    // warm-yellow
+$second-color: rgb(23, 8, 10);     // brown
+$third-color: rgb(124, 33, 51);    // bordeaux
+
+$red: rgb(200, 43, 24);
+$yellow: rgb(230, 217, 37);
+$orange: rgb(251, 109, 31);
+$dark-orange: rgb(203, 49, 25);
+
+/* GRADIENTS */
+
+$gradient-orange: linear-gradient(to bottom, $orange, $dark-orange);
+
+/* BORDERS */
+
+$border-fat : 10px solid;
+$border-med : 5px solid;
+$border-small : 1px solid;
+
+/* WIDTH */
+
+$block-width: 80%;
+$block-bottom-space: 4rem;
+
+/* FONTS */
+
+@font-face {
+  font-family: 'Bebas Neue Bold';
+  src:  url('../fonts/bebas-neue-bold.eot') format('embedded-opentype');
+  src:  url('../fonts/bebas-neue-bold.woff') format('woff'),
+        url('../fonts/bebas-neue-bold.eot') format('embedded-opentype'),
+        url('../fonts/bebas-neue-bold.ttf') format('trutype'),
+        url('../fonts/bebas-neue-bold.svg') format('svg');
+}
+
+@font-face {
+  font-family: 'Bebas Neue Book';
+  src:  url('../fonts/bebas-neue-book.eot') format('embedded-opentype');
+  src:  url('../fonts/bebas-neue-book.woff') format('woff'),
+        url('../fonts/bebas-neue-book.eot') format('embedded-opentype'),
+        url('../fonts/bebas-neue-book.ttf') format('trutype'),
+        url('../fonts/bebas-neue-book.svg') format('svg');
+}
+/* FONT STACKS */
+
+$bebas-bold: 'Bebas Neue Bold', 'Arial Narrow', 'Arial', 'Helvetica', sans-serif;
+$bebas-book: 'Bebas Neue book', 'Arial Narrow', 'Arial', 'Helvetica', sans-serif;
+$open-sans:  'Open Sans', 'Arial', 'Helvetica', sans-serif;
+
+
+/* MIXINS
+==============================================================================*/
+
+@mixin mq($size){
+  @media screen and (min-width:$size){
+    @content
+  }
+}
